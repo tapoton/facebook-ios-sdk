@@ -386,8 +386,9 @@ _fbdfl_handle_get_impl_(AdSupport)
 #define _fbdfl_AdSupport_get_c(SYMBOL) _fbdfl_symbol_get_c(AdSupport, SYMBOL);
 
 Class fbdfl_ASIdentifierManagerClass(void) {
-    _fbdfl_AdSupport_get_c(ASIdentifierManager);
-    return c;
+//    _fbdfl_AdSupport_get_c(ASIdentifierManager);
+//    return c;
+    return nil;
 }
 
 #pragma mark Accounts Constants
